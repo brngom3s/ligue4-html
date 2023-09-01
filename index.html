@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ligue 4</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Icon -->
+    <link type="image/png" sizes="32x32" rel="icon" href="icons8-circled-4-32.ico">
+  </head>
+  <body class="body">
+    <button id="toggle-contrast">Alternar Contraste</button>
+    <button class="back">Voltar</button>
+    <div class="wrapper">
+      <img src="img/menino.png" alt="Imagem Esquerda" class="imagem-esquerda">
+      <img src="img/menina.png" alt="Imagem Direita" class="imagem-direita">
+      <div id="playerTurn"></div>
+      <div class="container"></div>
+      <div id="information">
+        <div class="player-wrappers">
+          Jogador 1
+          <div class="player1"></div>
+        </div>
+        <div class="player-wrappers">
+          Jogador 2
+          <div class="player2"></div>
+        </div>        
+      </div>
+    </div>
+    <!--Primeira imagem-->
+    <div class="startScreen">
+      <div id="message"></div>
+      <div class="topbar">
+        <button id="start">Iniciar Jogo</button>
+      </div>
+      <div class="text">
+          <div id="primeiro-texto" class="frist-text">
+            <h1><center>Como Os Jogos Podem Ajudar No Desenvolvimento</center></h1>
+            <p>Os jogos podem trazer vários benefícios para pessoas autistas, como o desenvolvimento de habilidades sociais, cognitivas e motoras. Além disso, jogar pode ser uma forma de proporcionar uma experiência sensorial positiva, ajudando a regular as emoções e a reduzir a ansiedade.</p>
+          </div>
+          <br>
+          <ul class="two-text" id="pontos-do-jogo1" style="display: none;">
+            <li>Melhora da concentração: o jogo requer foco e atenção para que os jogadores possam planejar sua jogada e antecipar as jogadas do adversário, o que pode ajudar na melhora da concentração.</li>
+            <li>Desenvolvimento da habilidade espacial: o jogo ajuda a desenvolver a habilidade espacial, ou seja, a capacidade de visualizar e entender as relações espaciais entre objetos.</li>
+            <li>Estímulo à criatividade: o jogo pode ser utilizado como uma atividade lúdica em trabalhos de grupo, favorecendo a criatividade e a resolução de problemas em equipe.</li>
+          </ul>
+          <ul class="last-text" id  ="pontos-do-jogo2" style="display: none;">
+            <li>Redução do estresse: o jogo pode ser uma atividade relaxante e divertida, que ajuda a aliviar o estresse e a ansiedade.</li>
+            <li>Desenvolvimento da paciência e da perseverança: o jogo pode ajudar a desenvolver a paciência e a perseverança, já que os jogadores precisam esperar a vez do outro e persistir em sua estratégia mesmo diante de desafios.</li>
+            <li>Desenvolvimento da autoconfiança: o jogo pode ajudar a desenvolver a autoconfiança, já que os jogadores precisam tomar decisões e assumir riscos, o que pode contribuir para o desenvolvimento de sua capacidade de tomar decisões em outros contextos da vida.</li>
+          </ul>
+          <div class="actions-buttons">
+            <button id="actions-buttons-anterior"></button>
+            <button id="actions-buttons-próximo"></button>
+          </div>
+      </div>
+      <div class="quebracabecas"><img style="width: 60px;" src="Img/quebracabecas.png" alt="">
+      </div>
+      <div class="imagem">
+        <img style="width: 650px;" src="Img/imagem_inclusao.png" alt="">
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
